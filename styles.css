@@ -591,7 +591,7 @@ text-align: center;
   h1{
     white-space:wrap;
     max-width: fit-content;
-    
+
   }
   .home-content p {
     font-size: 1rem;
@@ -650,9 +650,13 @@ text-align: center;
   white-space-collapse: collapse;
   }
   .important-notice{
-   max-width: 300px;
+   max-width: 350px;
    
   }
+  .logo img {
+  display: none;
+  }
+
 }
 
 
