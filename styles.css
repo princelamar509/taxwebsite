@@ -42,6 +42,7 @@ body {
 .nav-links a.active {
   color: var(--accent-color);
   font-weight: 700;
+  font-size: 25px;
 }
 
 .navbar {
@@ -90,6 +91,7 @@ body {
 .nav-links a:hover {
   color: var(--accent-color);
   transform: translateY(-2px);
+  text-decoration: underline;
 }
 
 /* Home section */
@@ -257,8 +259,8 @@ body {
 }
 
 .important-notice {
-  background-color: var(--secondary-color);
-  color: #721c24;
+  background-color: #f1c40f;
+  color: rgb(44, 3, 3);
   padding: 15px;
   border-radius: 5px;
   margin-top: 20px;
@@ -410,6 +412,11 @@ text-align: center;
   margin-top: 1rem;
 }
 
+
+
+
+
+
 /* Contact section */
 .contact-section {
   padding: 5rem 5%;
@@ -546,16 +553,19 @@ text-align: center;
   font-size: 1.5rem;
   cursor: pointer;
   color: var(--primary-color);
+
 }
 
 /* Media Queries */
 @media (max-width: 768px ) {
   .hamburger {
     display: block;
+
   }
 
   .navbar {
     padding: 1rem;
+  
   }
 
 
@@ -564,10 +574,10 @@ text-align: center;
     top: 80px;
     left: 0;
     width: 100%;
-    background: var(--white);
+    background: linear-gradient(135deg, #a4b0bb 30%, #0e2432 100%);
     flex-direction: column;
     padding: 2rem;
-    gap: 1rem;
+    gap: 1.1rem;
     transform: translateX(-100%);
     transition: var(--transition);
 
@@ -600,9 +610,11 @@ text-align: center;
   .highlight{
     margin-top: 10px;
     font-size: large;
+    white-space: nowrap;
   }
   .e-file{
     margin-left: 20px;
+    white-space: nowrap;
    }
    .com1{
      font-size: large;
@@ -647,7 +659,9 @@ text-align: center;
   }
   .checklist-header{
     text-align: start;
-  white-space-collapse: collapse;
+  white-space: wrap;
+  flex-wrap: nowrap;
+  max-width: 300px;
   }
   .important-notice{
    max-width: 350px;
@@ -656,6 +670,30 @@ text-align: center;
   .logo img {
   display: none;
   }
+  #services p{
+    margin-top: 50px;
+   animation: lightning 1s ease-in-out infinite;
+   font-size: large;
+  }
+  .service-card{
+    margin: 20px;
+  color: rgba(0, 0, 0, 0.95);
+  background-color: rgba(34, 22, 22, 0.2);
+    border-radius: 0 0 30px 10px;
+    box-shadow: 0 22px 0px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .contact-form{
+    margin-top: 50px;
+  }
+
+  .footer{
+    margin-top: 50px;
+  }
+
 
 }
 
