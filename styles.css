@@ -598,7 +598,7 @@ text-align: center;
     font-size: larger;
   }
   .e-file{
-    margin-left: 2.5rem;
+    margin-left: 20px;
    }
    .com1{
      font-size: large;
@@ -630,9 +630,26 @@ text-align: center;
 .checklist-content {
     padding: 20px;
 }
+.hamburger {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--primary-color);
+    position: absolute;
+    left: 90%;
+
+  }
+  .checklist-header{
+    text-align: start;
+
+  }
+  .important-notice{
+   max-width: 400px;
+   
+  }
 }
-
-
 
 
 
