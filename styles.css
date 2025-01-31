@@ -170,14 +170,14 @@ body {
  }
  .com1{
   margin: 0 auto;
-  text-align: center;
+
   margin-top: 10px;
   font-size: larger;
   font-weight: bold;
  }
  .com2{
   margin: 0 auto;
-  text-align: center;
+margin-right: 2rem;
   margin-top: 10px;
   font-size: larger;
   font-weight: bold;
