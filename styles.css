@@ -158,10 +158,12 @@ body {
   color: var(--primary-color);
   text-align: center;
   margin-right: 6rem;
+  align-items: center;
 }
 .e-file{
   margin-left: auto;
   text-align: center;
+  align-items: center;
  }
  .com1{
    font-size: large;
@@ -611,10 +613,12 @@ text-align: center;
     margin-top: 10px;
     font-size: large;
     white-space: nowrap;
+    margin-left: 6rem;
   }
   .e-file{
-    margin-left: 20px;
+    margin-left: 2rem;
     white-space: nowrap;
+   
    }
    .com1{
      font-size: large;
