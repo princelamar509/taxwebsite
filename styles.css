@@ -158,16 +158,21 @@ body {
   color: var(--primary-color);
   text-align: center;
   margin-right: 6rem;
-  align-items: center;
+  
 }
 .e-file{
   margin-left: auto;
   text-align: center;
-  align-items: center;
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: larger;
+  margin-right: 2rem;
  }
  .com1{
    font-size: large;
    margin: auto;
+   color: var(--primary-color);
+
  }
 
 
@@ -607,26 +612,28 @@ text-align: center;
   }
   .home-content p {
     font-size: 1rem;
+    white-space: wrap;
+
   }
 
   .highlight{
     margin-top: 10px;
     font-size: large;
     white-space: nowrap;
-    margin-left: 6rem;
+   display: flexbox;
+   overflow: hidden;
   }
   .e-file{
     margin-left: 2rem;
     white-space: nowrap;
+    display: flexbox;
+    overflow: hidden;
    
    }
    .com1{
      font-size: large;
-     margin-left: 1rem;
     max-width: fit-content;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: wrap;
+   white-space: wrap;
    }
   .btn{
     margin-left: 2rem;
