@@ -623,6 +623,10 @@ text-align: center;
    .com1{
      font-size: large;
      margin-left: 1rem;
+    max-width: fit-content;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: wrap;
    }
   .btn{
     margin-left: 2rem;
